@@ -7,9 +7,9 @@ from datetime import datetime
 from urllib import request
 from bs4 import BeautifulSoup
 
-# User-defined constants
-sender_email = "your_email@gmail.com"  # Your Gmail address
-sender_password = "your_password"  # Your Gmail password
+# User-defined constants for email configuration
+sender_email = "work.abtech@gmail.com"
+sender_password = "qnew lrkh ikqc iuao"
 recipient_emails = ["tech67451@gmail.com", "priyabratgupta4@gmail.com"]
 tickets_date = "2024-05-18"  # Desired date for ticket notifications, format "YYYY-MM-DD"
 num_of_messages_to_send = 10  # Number of notification messages to send once tickets are available
