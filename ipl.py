@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 sender_email = "work.abtech@gmail.com"
 sender_password = "qnew lrkh ikqc iuao"
 recipient_emails = ["tech67451@gmail.com", "priyabratgupta4@gmail.com"]
-tickets_date = "2024-05-18"  # Desired date for ticket notifications, format "YYYY-MM-DD"
+tickets_date = st.sidebar.date_input("enter desired to check for tickets availability", datetime.date(2024, 5, 18))  # Desired date for ticket notifications, format "YYYY-MM-DD"
 num_of_messages_to_send = 10  # Number of notification messages to send once tickets are available
 fetch_status_delay = 300 
 interval_between_messages = 60  # Seconds between each notification message
